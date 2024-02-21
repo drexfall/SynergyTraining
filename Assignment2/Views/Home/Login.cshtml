@@ -1,0 +1,39 @@
+@{
+    ViewBag.Title = "Login";
+    Layout = "_Layout";
+}
+
+<div class="login-container container-sm vstack align-items-center">
+    <div class="text-center m-4 text-primary">
+        <h2 class="mb-4 fw-bold">Login</h2>
+    </div>
+
+    <form class="w-25 p-4 rounded border border-primary d-flex flex-column" asp-action="Login" method="post">
+        <div class="mb-3">
+            <div class="input-group row g-0">
+                <span class="input-group-text col-auto">
+                    <i class="bi bi-person"></i>
+                </span>
+                <div class="form-floating col">
+                    <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                    <label for="username" class="form-label">Username</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+
+            <div class="input-group row g-0">
+                <span class="input-group-text col-auto">
+                    <i class="bi bi-lock"></i>
+                </span>
+                <div class="form-floating col">
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    <label for="password" class="form-label">Password</label>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>
