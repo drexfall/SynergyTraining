@@ -1,0 +1,47 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendo UI GridView Example</title>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2022.1.301/styles/kendo.common.min.css">
+
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/themes/2022.1.301/default/all.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.1.301/js/kendo.all.min.js"></script>
+
+
+</head>
+
+<body>
+    <center>
+        <h1>Assignment 1 - Kendo Grid</h1>
+    </center>
+    <br />
+
+    <div id="grid"></div>
+
+    <script>
+        $("#grid").kendoGrid({
+            dataSource: {
+                transport: {
+                    read: {
+                        url: "https://jsonplaceholder.typicode.com/todos/",
+                        dataType: "json"
+                    }
+                }
+            },
+            columns: [
+                { field: "userId", title: "User ID" },
+                { field: "id", title: "ID" },
+                { field: "title", title: "Title" },
+                { field: "completed", title: "Status" }
+            ],
+            height: 550,
+            pageable: {
+                refresh: true,
+                pageSizes: true,
+                buttonCount: 5
+            },
+        });
+    </script>
+</body>

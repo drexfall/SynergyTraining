@@ -1,0 +1,72 @@
+@model Assignment2.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center p-3">
+    <h1>Edit Employee</h1>
+    <button class="btn btn-primary" type="submit" form="form">Save</button>
+</div>
+
+<form asp-action="Edit" id="form" class="d-flex flex-wrap w-100 justify-content-between gap-2 p-3">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Name" class="form-control" id="floatingName" placeholder="Name">
+                <label for="floatingName">Name</label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Department" class="form-control" id="floatingDepartment" placeholder="Department">
+                <label for="floatingDepartment">Department</label>
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Position" class="form-control" id="floatingPosition" placeholder="Position">
+                <label for="floatingPosition">Position</label>
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Email" class="form-control" id="floatingEmail" placeholder="Email">
+                <label for="floatingEmail">Email</label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Phone" class="form-control" id="floatingPhone" placeholder="Phone">
+                <label for="floatingPhone">Phone</label>
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Address" class="form-control" id="floatingAddress" placeholder="Address">
+                <label for="floatingAddress">Address</label>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="City" class="form-control" id="floatingCity" placeholder="City">
+                <label for="floatingCity">City</label>
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="State" class="form-control" id="floatingState" placeholder="State">
+                <label for="floatingState">State</label>
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input asp-for="Zip" class="form-control" id="floatingZip" placeholder="Zip">
+                <label for="floatingZip">Zip</label>
+                <span asp-validation-for="Zip" class="text-danger"></span>
+            </div>
+            
+        </form>
+

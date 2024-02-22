@@ -1,0 +1,60 @@
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\appsettings.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.staticwebassets.runtime.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.exe
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.deps.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.runtimeconfig.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.dll
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.pdb
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.AssemblyInfoInputs.cache
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.AssemblyInfo.cs
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.csproj.CoreCompileInputs.cache
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.RazorAssemblyInfo.cache
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.RazorAssemblyInfo.cs
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.Kendo Grid application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.build.Kendo Grid application.props
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Kendo Grid application.props
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kendo Grid application.props
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\scopedcss\bundle\Kendo Grid application.styles.css
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\scopedcss\projectbundle\Kendo Grid application.bundle.scp.css
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.dll
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\refint\Kendo Grid application.dll
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.pdb
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.genruntimeconfig.cache
+C:\Users\Arnav\Dropbox\PC\Desktop\synergy_task\Kendo Grid application\obj\Debug\net8.0\ref\Kendo Grid application.dll
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\appsettings.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.staticwebassets.runtime.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.exe
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.deps.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.runtimeconfig.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.dll
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\bin\Debug\net8.0\Kendo Grid application.pdb
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.AssemblyInfoInputs.cache
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.AssemblyInfo.cs
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.csproj.CoreCompileInputs.cache
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.RazorAssemblyInfo.cache
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.RazorAssemblyInfo.cs
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.Kendo Grid application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.build.Kendo Grid application.props
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Kendo Grid application.props
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kendo Grid application.props
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\scopedcss\bundle\Kendo Grid application.styles.css
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\scopedcss\projectbundle\Kendo Grid application.bundle.scp.css
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.dll
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\refint\Kendo Grid application.dll
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.pdb
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\Kendo Grid application.genruntimeconfig.cache
+C:\Users\underscore\Downloads\Kendo Grid application\Kendo Grid application\obj\Debug\net8.0\ref\Kendo Grid application.dll
