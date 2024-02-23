@@ -5,5 +5,5 @@ namespace Assignment2.Data;
 
 public class EmpTaskContext(DbContextOptions<EmpTaskContext> options) : DbContext(options)
 {
-    public DbSet<EmpTask> EmpTask { get; set; } = default;
+    public DbSet<EmpTask> EmpTask { get; set; }
 }

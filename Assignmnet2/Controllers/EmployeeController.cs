@@ -21,13 +21,28 @@ namespace Assignment2.Controllers
         // GET: EmployeeController/List/5
         public async Task<IActionResult> List()
         {
-           
+           var role = TempData["role"];
+            if (role == null || role.ToString() != "HR")
+            {
+                TempData["error"] = "You must login as HR first";
+                return RedirectToAction("Login", "Home");
+            }
+            TempData["role"] = role;
             return View(await context.Employee.ToListAsync());
+                
+            
         }
 
         // GET: EmployeeController/Create
         public IActionResult Create()
         {
+            var role = TempData["role"];
+            if (role == null || role.ToString() != "HR")
+            {
+                TempData["error"] = "You must login as HR first";
+                return RedirectToAction("Login", "Home");
+            }
+            TempData["role"] = role;
             return View();
         }
 
@@ -38,18 +53,26 @@ namespace Assignment2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Department,Position,Email,Phone,Address,City,State,Zip")] Employee model)
         {
+            
             if (ModelState.IsValid)
             {
                 context.Add(model);
                 await context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            
             return View(model);
         }
 
         // GET: EmployeeController/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var role = TempData["role"];
+            if (role == null || role.ToString() != "HR")
+            {
+                TempData["error"] = "You must login as HR first";
+                return RedirectToAction("Login", "Home");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -60,6 +83,7 @@ namespace Assignment2.Controllers
             {
                 return NotFound();
             }
+            TempData["role"] = role;
             return View(employee);
         }
 
@@ -70,6 +94,12 @@ namespace Assignment2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Department,Position,Email,Phone,Address,City,State,Zip")] Employee model)
         {
+            var role = TempData["role"];
+            if (role == null || role.ToString() != "HR")
+            {
+                TempData["error"] = "You must login as HR first";
+                return RedirectToAction("Login", "Home");
+            }
             if (id != model.Id)
             {
                 return NotFound();
@@ -95,6 +125,7 @@ namespace Assignment2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            TempData["role"] = role;
             return View(model);
         }
         
@@ -102,6 +133,12 @@ namespace Assignment2.Controllers
         // GET: EmployeeController/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var role = TempData["role"];
+            if (role == null || role.ToString() != "HR")
+            {
+                TempData["error"] = "You must login as HR first";
+                return RedirectToAction("Login", "Home");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -113,7 +150,7 @@ namespace Assignment2.Controllers
             {
                 return NotFound();
             }
-
+            TempData["role"] = role;
             return View(employee);
         }
 
@@ -122,6 +159,12 @@ namespace Assignment2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var role = TempData["role"];
+            if (role == null || role.ToString() != "HR")
+            {
+                TempData["error"] = "You must login as HR first";
+                return RedirectToAction("Login", "Home");
+            }
             var employee = await context.Employee.FindAsync(id);
             if (employee != null)
             {
@@ -129,6 +172,7 @@ namespace Assignment2.Controllers
             }
 
             await context.SaveChangesAsync();
+            TempData["role"] = role;
             return RedirectToAction(nameof(Index));
         }
 

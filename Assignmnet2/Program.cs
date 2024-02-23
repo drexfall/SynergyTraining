@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EmployeeContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Default String") ??
                       throw new InvalidOperationException("Connection string 'EmployeeContext' not found.")));
-builder.Services.AddDbContext<UserContext>(options =>
+builder.Services.AddDbContext<AppUserContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Default String") ??
                       throw new InvalidOperationException("Connection string 'UserContext' not found.")));
 builder.Services.AddDbContext<EmpTaskContext>(options =>

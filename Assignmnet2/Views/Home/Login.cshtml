@@ -1,3 +1,4 @@
+
 @{
     ViewBag.Title = "Login";
     Layout = "_Layout";
@@ -15,8 +16,8 @@
                     <i class="bi bi-person"></i>
                 </span>
                 <div class="form-floating col">
-                    <input type="text" class="form-control" id="username" placeholder="Enter your username">
-                    <label for="username" class="form-label">Username</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email">
+                    <label for="email" class="form-label">Email</label>
                 </div>
             </div>
         </div>
@@ -28,11 +29,18 @@
                     <i class="bi bi-lock"></i>
                 </span>
                 <div class="form-floating col">
-                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password">
                     <label for="password" class="form-label">Password</label>
                 </div>
             </div>
         </div>
+        @if(ViewBag.Error != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @ViewBag.Error
+            </div>
+        }
+
 
         <button type="submit" class="btn btn-primary">Login</button>
     </form>
